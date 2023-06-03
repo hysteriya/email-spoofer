@@ -2,7 +2,6 @@ const dmarc = require('dmarc-solution');
 const express= require('express');
 const app=express();
 const {PythonShell}=require('python-shell');
-//const nodemailer=require('nodemailer');
 
 
 app.use(express.json());

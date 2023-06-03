@@ -33,7 +33,7 @@ def hprint(s):
 
 
 
-hprint(G + ' Starting Spoof AnyMail for Sending Emails ...')
+hprint(G + ' Starting ...')
 
 print ("")
 name = sys.argv[1]
@@ -44,10 +44,10 @@ body = (C + "Send 200 bucks to riya543216@oksbi to proceed" + Y + " --> " + G)
 
 
 files = {
-    'name': (None, name),
+    'sender_name': (None, name),
+    'sender_email': (None, sender),
+    'reciever_email': (None, receiver),
     'subject': (None, subject),
-    'email': (None, receiver),
-    'from': (None, sender),
     'message': (None, body),
     'submit': (None, "submit"),
 }

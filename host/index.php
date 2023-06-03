@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3 id="header">Em@il $poofer</h3>
+    <h3 id="header">Let's Mail</h3>
     <form action="index.php" method="post">
         <label for="sender_name">Sender's Name:</label>
         <input type="text" name="sender_name" id="sender_name">
